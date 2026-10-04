@@ -1,20 +1,20 @@
 export type SystemId = 'skeletal'|'muscular'|'arterial'|'venous'|'nervous'|'digestive'|'respiratory'|'urinary'|'reproductive'|'lymphatic'|'endocrine'|'integumentary'|'connective'|'sensory'|'cardiac';
 export const SYSTEMS: {id:SystemId;name:string;color:string;description:string}[] = [
- {id:'skeletal',name:'Skeleton',color:'#e2d9ba',description:'Bones form the supporting framework of the body, protect organs, and provide attachment points for muscles. Their internal tissue also stores minerals and produces blood cells.'},
- {id:'muscular',name:'Muscles',color:'#a85b50',description:'Skeletal muscles generate movement by pulling on their attachments. Together with tendons, they move joints, stabilize posture, and produce heat.'},
- {id:'cardiac',name:'Heart',color:'#b96760',description:'The heart is a muscular pump with four chambers. Its valves direct blood forward through the pulmonary and systemic circuits.'},
- {id:'sensory',name:'Sensory organs',color:'#b0c8ce',description:'These structures contribute to special senses, including sight, hearing, and balance. Their specialized tissues detect stimuli and work with the nervous system to convey information.'},
- {id:'arterial',name:'Arteries',color:'#c05245',description:'The heart drives blood through the circulation. Arteries carry blood away from the heart to supply tissues or, in the pulmonary circuit, to the lungs.'},
- {id:'venous',name:'Veins',color:'#527c9f',description:'Veins return blood toward the heart. Superficial and deep networks collect blood from the tissues; the pulmonary veins bring oxygenated blood back from the lungs.'},
- {id:'nervous',name:'Nervous system',color:'#d8b565',description:'The brain, spinal cord, and peripheral nerves carry and process signals. They support sensation, movement, coordination, and automatic regulation of body functions.'},
- {id:'respiratory',name:'Respiratory',color:'#b98991',description:'The airways conduct air to the lungs, where oxygen and carbon dioxide move between air and blood. Breathing depends on pressure changes produced by respiratory muscles.'},
- {id:'digestive',name:'Digestive',color:'#b8916b',description:'The digestive tract breaks down food, absorbs nutrients and water, and moves waste onward. Accessory organs contribute bile and digestive enzymes.'},
- {id:'urinary',name:'Urinary',color:'#b47961',description:'The kidneys filter blood and regulate fluid, electrolyte, and acid–base balance. Urine travels through the ureters to the bladder and exits through the urethra.'},
- {id:'lymphatic',name:'Lymphatic',color:'#879f7c',description:'Lymphatic vessels return excess tissue fluid to the circulation. Lymph nodes and other lymphoid organs support immune surveillance and responses.'},
- {id:'endocrine',name:'Endocrine',color:'#c5a09a',description:'Endocrine organs release hormones into the blood to coordinate processes such as metabolism, growth, stress responses, and reproduction.'},
- {id:'reproductive',name:'Reproductive',color:'#bda098',description:'The male reproductive structures represented here contribute to sperm production, maturation, transport, and the production of sex hormones.'},
- {id:'integumentary',name:'Body surface',color:'#ba9b7d',description:'The body surface provides an outer anatomical reference. The integumentary system forms a protective barrier and contributes to sensation and temperature regulation.'},
- {id:'connective',name:'Connective tissue',color:'#aec3bb',description:'Cartilage, ligaments, and other connective tissues support, connect, and separate structures. Their roles include stabilizing joints and distributing mechanical loads.'},
+ {id:'skeletal',name:'Sistem rangka',color:'#e2d9ba',description:'Tulang menopang tubuh, melindungi organ, dan menjadi tempat melekatnya otot. Jaringan di dalam tulang juga menyimpan mineral dan menghasilkan sel darah.'},
+ {id:'muscular',name:'Sistem otot',color:'#a85b50',description:'Otot rangka menghasilkan gerakan dengan menarik titik perlekatannya. Bersama tendon, otot menggerakkan sendi, menjaga postur, dan menghasilkan panas.'},
+ {id:'cardiac',name:'Jantung',color:'#b96760',description:'Jantung adalah pompa berotot dengan empat ruang. Katupnya menjaga darah tetap mengalir maju melalui peredaran paru dan seluruh tubuh.'},
+ {id:'sensory',name:'Organ indra',color:'#b0c8ce',description:'Organ ini mendukung penglihatan, pendengaran, dan keseimbangan. Jaringan khususnya mendeteksi rangsangan lalu mengirimkan informasi melalui sistem saraf.'},
+ {id:'arterial',name:'Pembuluh arteri',color:'#c05245',description:'Arteri membawa darah keluar dari jantung menuju jaringan tubuh atau menuju paru-paru pada peredaran pulmonal.'},
+ {id:'venous',name:'Pembuluh vena',color:'#527c9f',description:'Vena mengembalikan darah menuju jantung. Jaringan vena mengumpulkan darah dari tubuh, sedangkan vena pulmonalis membawa darah beroksigen dari paru-paru.'},
+ {id:'nervous',name:'Sistem saraf',color:'#d8b565',description:'Otak, sumsum tulang belakang, dan saraf tepi membawa serta mengolah sinyal untuk mendukung sensasi, gerakan, koordinasi, dan pengaturan fungsi tubuh.'},
+ {id:'respiratory',name:'Sistem pernapasan',color:'#b98991',description:'Saluran napas membawa udara ke paru-paru, tempat oksigen dan karbon dioksida berpindah antara udara dan darah.'},
+ {id:'digestive',name:'Sistem pencernaan',color:'#b8916b',description:'Saluran pencernaan memecah makanan, menyerap zat gizi dan air, lalu meneruskan sisa makanan. Organ tambahan menghasilkan empedu dan enzim pencernaan.'},
+ {id:'urinary',name:'Sistem urinaria',color:'#b47961',description:'Ginjal menyaring darah dan mengatur keseimbangan cairan, elektrolit, serta asam-basa. Urine mengalir melalui ureter menuju kandung kemih.'},
+ {id:'lymphatic',name:'Sistem limfatik',color:'#879f7c',description:'Pembuluh limfatik mengembalikan kelebihan cairan jaringan ke peredaran darah. Kelenjar getah bening mendukung pertahanan tubuh.'},
+ {id:'endocrine',name:'Sistem endokrin',color:'#c5a09a',description:'Organ endokrin melepaskan hormon ke dalam darah untuk mengatur metabolisme, pertumbuhan, respons stres, dan reproduksi.'},
+ {id:'reproductive',name:'Sistem reproduksi',color:'#bda098',description:'Struktur reproduksi pria yang ditampilkan berperan dalam produksi, pematangan, dan pengangkutan sperma serta produksi hormon seks.'},
+ {id:'integumentary',name:'Permukaan tubuh',color:'#ba9b7d',description:'Permukaan tubuh menjadi acuan anatomi luar. Sistem integumen melindungi tubuh serta membantu sensasi dan pengaturan suhu.'},
+ {id:'connective',name:'Jaringan ikat',color:'#aec3bb',description:'Tulang rawan, ligamen, dan jaringan ikat lain menopang, menghubungkan, dan memisahkan struktur tubuh.'},
 ];
 export interface Part {id:string;name:string;conceptId:string;system:SystemId;chunk:number;positions:number;normals:number;indices:number;vertexCount:number;indexCount:number;bounds:[number[],number[]]}
 export interface Concept {id:string;name:string;elements:string[]}
@@ -23,14 +23,14 @@ export type View = 'three-quarter'|'front'|'back'|'side';
 export interface SceneState {inspectorOpen?:boolean;explode:number;visible:SystemId[];selected:string[];isolate:boolean;view:View;rotate:boolean;reset:number}
 export const DEFAULT_VISIBLE:SystemId[] = ['cardiac','sensory','skeletal','muscular','arterial','venous','nervous','respiratory','digestive','urinary','lymphatic','endocrine','reproductive','connective'];
 export const EXPLANATIONS:Record<string,string> = {
- 'heart':'A muscular pump in the chest. Its right side sends blood to the lungs; its left side sends blood through the systemic circulation.',
- 'liver':'A large organ beneath the right side of the diaphragm. It processes absorbed nutrients, produces bile, and synthesizes many proteins carried in the blood.',
- 'brain':'The central organ of the nervous system. Its interconnected regions support perception, movement, memory, language, and the regulation of bodily functions.',
- 'stomach':'A muscular chamber between the esophagus and small intestine. It stores and mixes food with acid and enzymes before releasing it into the duodenum.',
- 'spleen':'A lymphoid organ in the upper left abdomen. It filters blood, removes aging blood cells, and participates in immune responses.',
- 'pancreas':'An abdominal organ with digestive and endocrine roles. It supplies enzymes to the small intestine and releases hormones including insulin and glucagon.',
- 'urinary bladder':'A muscular reservoir in the pelvis that stores urine arriving from the kidneys through the ureters.',
- 'trachea':'The main airway connecting the larynx to the bronchi. Its cartilage supports keep the airway open during breathing.',
- 'diaphragm':'A broad muscle separating the chest and abdomen. When it contracts, it increases chest volume and helps draw air into the lungs.',
+ 'heart':'Pompa berotot di dalam dada. Sisi kanan mengirim darah ke paru-paru, sedangkan sisi kiri mengedarkan darah ke seluruh tubuh.',
+ 'liver':'Organ besar di bawah diafragma sebelah kanan. Hati mengolah zat gizi, menghasilkan empedu, dan membuat berbagai protein darah.',
+ 'brain':'Pusat sistem saraf. Bagian-bagiannya bekerja sama untuk mengatur persepsi, gerakan, ingatan, bahasa, dan berbagai fungsi tubuh.',
+ 'stomach':'Kantung berotot di antara kerongkongan dan usus halus. Lambung menyimpan serta mencampur makanan dengan asam dan enzim.',
+ 'spleen':'Organ limfatik di perut kiri atas. Limpa menyaring darah, membuang sel darah yang menua, dan membantu respons imun.',
+ 'pancreas':'Organ yang berperan dalam pencernaan dan sistem hormon. Pankreas menghasilkan enzim serta hormon seperti insulin dan glukagon.',
+ 'urinary bladder':'Kantung berotot di panggul yang menyimpan urine dari ginjal sebelum dikeluarkan.',
+ 'trachea':'Saluran napas utama yang menghubungkan laring dengan bronkus. Cincin tulang rawan menjaganya tetap terbuka saat bernapas.',
+ 'diaphragm':'Otot lebar yang memisahkan rongga dada dan perut. Saat berkontraksi, diafragma membantu udara masuk ke paru-paru.',
 };
 export function explanation(name:string,system:SystemId){return EXPLANATIONS[name.toLowerCase()] ?? SYSTEMS.find(s=>s.id===system)?.description ?? '';}
